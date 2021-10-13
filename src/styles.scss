@@ -1,1 +1,117 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1199.98px)  {
+    .website_format{
+        padding-bottom: 2%;
+        width: 75%;
+        align-items: center;
+        text-align: center;
+        min-height: calc(99vh - 50px);
+        
+        background-color: whitesmoke;
+        word-wrap: break-word;
+        margin: auto;
+    }
+}
+@media (max-width: 991.98px) { 
+    .website_format{
+        padding-bottom: 2%;
+        width: 75%;
+        align-items: center;
+        text-align: center;
+       min-height: calc(99vh - 50px);
+        
+        background-color: whitesmoke;
+        word-wrap: break-word;
+        margin: auto;
+    }
+ }
+@media (max-width: 767.98px)  {
+    .website_format{
+        padding-bottom: 2%;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+       min-height: calc(99vh - 50px);
+        background-color: whitesmoke;
+        word-wrap: break-word;
+        margin: auto;
+    }
+  }
+@media (max-width: 575.98px){ 
+
+    .website_format{
+        padding-bottom: 2%;
+        width: 90%;
+        align-items: center;
+        text-align: center;
+       min-height: calc(99vh - 50px);
+        
+        background-color: whitesmoke;
+        word-wrap: break-word;
+        margin: auto;
+    }
+ }
+
+// Medium devices (tablets, 768px and up)
+
+
+// Large devices (desktops, 992px and up)
+
+
+
+@media (min-width: 1200px) { 
+    .website_format{
+        padding-bottom: 2%;
+        width: 75%;
+        align-items: center;
+        text-align: center;
+       min-height: calc(99vh - 50px);
+        
+        background-color: whitesmoke;
+        word-wrap: break-word;
+        margin: auto;
+    }
+
+}
+
+
+@media (min-width: 767.98px)  {
+    .hamburgerText{
+        width:50%;
+        margin: auto;
+    }
+  }
+.header{
+    font-size: 55px;
+    width: 65%;
+    margin: auto;
+    padding-top: 2%;
+    text-align: center;
+    font-style: italic;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.header2{
+    font-size: 30px;
+    margin: auto;
+    padding-top: 2%;
+    text-align: center;
+    font-style: italic;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.textcontent{
+    font-size: 14px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 90%;
+    margin: auto;
+    margin-top: 2%;
+    text-align: center;
+    
+}

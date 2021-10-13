@@ -1,0 +1,71 @@
+.arrow1 {
+    animation: slide1 2s ease-in-out infinite,
+    pulse 6s ease infinite alternate;
+    animation-delay: 0s;
+    margin-left: 9px;
+    font-size: 90px;
+            
+  }
+  .arrow2 {
+    animation: slide2 2s ease-in-out infinite,
+    pulse 6s ease infinite alternate;
+    font-size: 90px;
+    animation-delay: -2s;
+            
+  }
+  .arrow3 {
+    animation: slide3 2s ease-in-out infinite,
+    pulse 6s ease infinite alternate;
+    animation-delay: -4s;
+    font-size: 90px;
+            
+  }
+  @keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(20px, 0);
+    }
+  }
+
+
+
+@keyframes slide2 {
+  0%,
+  100% {
+    transform: translate(0, 0) rotate(225deg);
+  }
+
+  50% {
+    transform: translate(20px, 20px) rotate(225deg);
+  }
+}
+
+@keyframes slide3 {
+  0%,
+  100% {
+    transform: translate(0, 20px) rotate(135deg);
+  }
+
+  50% {
+    transform: translate(20px, 0) rotate(135deg);
+  }
+}
+@keyframes pulse {
+  0%, 100% {
+    color: red;
+  }
+  66% {
+    color: black;
+  }
+  33% {
+    color: black;
+  }
+}
+li{
+  font-size: smaller;
+  text-align: start;
+}
